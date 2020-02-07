@@ -1,0 +1,133 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-image: url("");
+}
+
+header{
+	background-image: url("galaxy.jpg");
+	margin: auto;
+	height: 170px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*------------------------------------------------------ mon menu de navigation -------------------------------*/
+
+nav{
+	
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px 70px;
+	color: white;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+.for:hover{
+	background-color: blue;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+
+.let:hover{
+	background-color: pink;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+
+.tab:hover{
+	background-color: green;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+.med:hover{
+	background-color: #555555;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+.lis:hover{
+	background-color: #008CBA;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+
+/*------------------------------------------------------ je me presenter -------------------------------*/
+  h1{
+  	color: blue;
+  }
+
+/*------------------------------------------- mes centre d'intérêts -------------------------------------*/
+
+footer {
+	margin: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+.accepted {
+  display: grid;
+
+}
+* {box-sizing: border-box;}
+.accepted {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: white;
+}
+.accepted > div {
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.accepted {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-column-gap: 30px;
+  grid-row-gap: 0.5em;
+}
+
+
+
+
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+* {box-sizing: border-box;}
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
